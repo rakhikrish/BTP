@@ -1,0 +1,11 @@
+This week it's the code for feature extraction from a given iris image dataset.I have learnt that for iris it's best to extract
+texture features .So I used GLCM(Gray-level co-occurrence matrix) to extract the texture features .
+Statistically, GLCM is a method of examining texture that considers the spatial relationship of pixels. It works by calculating 
+how often pairs of pixel with specific values and in a specified spatial relationship occur in an image, creating a GLCM, and then 
+extracting statistical measures from this matrix.Within GLCM, we can also derive some statistics that describe more about the texture,
+such as:
+
+Contrast: Measures the local variations in the gray-level co-occurrence matrix.
+Correlation: Measures the joint probability occurrence of the specified pixel pairs.
+Energy: Provides the sum of squared elements in the GLCM. Also known as uniformity or the angular second moment.
+Homogeneity: Measures the closeness of the distribution of elements in the GLCM to the GLCM diagonal.
