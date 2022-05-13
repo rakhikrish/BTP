@@ -1,0 +1,3 @@
+In this week's code I have familiarised with the basic image operations in python . I tried my hands on 
+how to read multiple image files from a folder , show an image to user ,convert image format from and to RGB/BGR ,
+and grayscaling an image ,resizing and cropping images and converting images to black and white .
